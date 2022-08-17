@@ -25,7 +25,7 @@ Then, use the following to install `pytorch3d`:
 pip install "git+https://github.com/facebookresearch/pytorch3d.git@stable"
 `
 
-The main training and testing scripts are `train_transformed_rays.py` and `eval_transformed_rays.py`, respectively. They are in the main working folder which is in `nerface_code/nerf-pytorch/`. 
+The main training and testing scripts are `train_transformed_rays.py` and `eval_transformed_rays.py`, respectively. They are in the main working folder `nerf-pytorch/`. 
 
 The training script expects a path to a config file, e.g.:
 
