@@ -1,0 +1,21 @@
+name: nerface
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.7
+  - pip
+  - pytorch=1.7.0
+  - cuda100
+  - cudatoolkit=10.1
+  - cudatoolkit-dev>=10.1
+  - imageio
+  - numpy
+  - pyyaml
+  - tensorboard
+  - torchvision
+  - tqdm
+  - pip:
+    - opencv-python-headless
+    - "git+https://github.com/aliutkus/torchsearchsorted#egg=torchsearchsorted"
